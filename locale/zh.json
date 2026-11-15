@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "桌面应用窗口",
+    "description": "用独立的原生应用窗口打开 DeepSeek Harness，并显示桌面集成状态。"
+  },
+  "section": {
+    "title": "桌面应用",
+    "subtitle": "让 DeepSeek Harness 以自己的应用窗口运行，而不是浏览器标签页。",
+    "status": "当前状态",
+    "running": "应用窗口已打开",
+    "stopped": "未打开应用窗口",
+    "address": "服务地址",
+    "closeWindow": "关闭窗口时",
+    "closeTray": "收进托盘（服务继续）",
+    "closeExit": "直接退出窗口",
+    "onQuit": "退出时",
+    "quitStop": "停止本地服务",
+    "quitKeep": "保留服务在后台",
+    "open": "以应用窗口打开",
+    "refresh": "刷新状态",
+    "copy": "复制地址",
+    "copied": "地址已复制",
+    "opening": "正在打开…",
+    "opened": "已请求打开应用窗口",
+    "failed": "打开应用窗口失败",
+    "unavailable": "状态不可用"
+  }
+}

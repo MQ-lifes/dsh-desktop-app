@@ -1,0 +1,43 @@
+{
+  "name": "@local/dsh-desktop-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Opens DeepSeek Harness in a standalone app window and exposes a desktop-integration settings page.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQ-lifes/dsh-desktop-app.git"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "desktop",
+    "windows",
+    "webview2"
+  ],
+  "scripts": {
+    "test": "node test/harness.mjs ."
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# 关窗行为只有一个真源：~/.dsh/desktop-app.json。
+# 这里的 closeToTray / closeStopsServer 只作为首次运行的种子值，
+# 之后在「设置 → 桌面应用」里改动会写入偏好文件并立刻生效，不再回头看这份 patch。
+#
+# shellPath 故意不写：留空即按 DSH_DESKTOP_SHELL 环境变量 →
+# <用户目录>\dsh-runtime\DeepSeekHarness.exe → %LOCALAPPDATA%\Programs\DeepSeekHarness\DeepSeekHarness.exe
+# 的顺序自动探测，仓库里因此不含任何一台机器的绝对路径。
+- insert:
+    - id: dsh-desktop-app
+      name: '@local/dsh-desktop-app'
+      config:
+        windowWidth: 1440
+        windowHeight: 900
+        closeToTray: true
+        closeStopsServer: true

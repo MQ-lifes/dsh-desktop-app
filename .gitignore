@@ -1,0 +1,11 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.tgz
+
+# 日志与本地状态
+*.log
+logs/
+.DS_Store
+Thumbs.db
+desktop-app.local.json

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Desktop window",
+    "description": "Opens DeepSeek Harness in a standalone app window and shows the desktop integration status."
+  },
+  "section": {
+    "title": "Desktop window",
+    "subtitle": "Run DeepSeek Harness as its own application window instead of a browser tab.",
+    "status": "Status",
+    "running": "App window open",
+    "stopped": "No app window",
+    "address": "Service address",
+    "closeWindow": "When the window closes",
+    "closeTray": "Minimize to tray (server keeps running)",
+    "closeExit": "Close the window",
+    "onQuit": "When quitting",
+    "quitStop": "Stop the local server",
+    "quitKeep": "Keep the server running",
+    "open": "Open app window",
+    "refresh": "Refresh",
+    "copy": "Copy address",
+    "copied": "Address copied",
+    "opening": "Opening…",
+    "opened": "App window requested",
+    "failed": "Could not open the app window",
+    "unavailable": "Status unavailable"
+  }
+}
