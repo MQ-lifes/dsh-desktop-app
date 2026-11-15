@@ -100,4 +100,4 @@ node test/harness.mjs .
 
 ## License
 
-未附带许可证文件。如需对外分发，请自行补充（例如 MIT）。
+MIT © 2026 MQ-lifes，全文见 [LICENSE](LICENSE)。

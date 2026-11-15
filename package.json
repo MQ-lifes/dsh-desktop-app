@@ -2,6 +2,7 @@
   "name": "@local/dsh-desktop-app",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Opens DeepSeek Harness in a standalone app window and exposes a desktop-integration settings page.",
   "repository": {
