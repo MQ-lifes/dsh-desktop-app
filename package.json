@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "type": "module",
-  "description": "Opens DeepSeek Harness in a standalone app window and exposes a desktop-integration settings page.",
+  "description": "Opens DeepSeek Harness in a standalone app window, exposes a desktop-integration settings page, and adds a real conversation delete (DSH itself only archives).",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MQ-lifes/dsh-desktop-app.git"
@@ -16,10 +16,11 @@
     "dsh-plugin",
     "desktop",
     "windows",
-    "webview2"
+    "webview2",
+    "session-delete"
   ],
   "scripts": {
-    "test": "node test/harness.mjs ."
+    "test": "node test/harness.mjs . && node test/client-harness.mjs ."
   },
   "exports": {
     ".": "./index.js",

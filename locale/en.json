@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Desktop window",
-    "description": "Opens DeepSeek Harness in a standalone app window and shows the desktop integration status."
+    "description": "Opens DeepSeek Harness in a standalone app window, shows the desktop integration status, and adds a trash-backed delete to the conversation menu (DSH itself only archives)."
   },
   "section": {
     "title": "Desktop window",
@@ -24,5 +24,11 @@
     "opened": "App window requested",
     "failed": "Could not open the app window",
     "unavailable": "Status unavailable"
+  },
+  "menu": {
+    "delete": "Delete conversation…",
+    "deleting": "Deleting…",
+    "deleteConfirm": "Permanently delete the conversation \"{title}\"?\n\nThis removes its records from disk and cannot be undone. Use Archive if you only want it out of the list.",
+    "deleteFailed": "Delete failed"
   }
 }

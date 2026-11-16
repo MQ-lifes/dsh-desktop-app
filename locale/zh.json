@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "桌面应用窗口",
-    "description": "用独立的原生应用窗口打开 DeepSeek Harness，并显示桌面集成状态。"
+    "description": "用独立的原生应用窗口打开 DeepSeek Harness，显示桌面集成状态，并在会话菜单里提供带回收站的删除（DSH 本身只有归档）。"
   },
   "section": {
     "title": "桌面应用",
@@ -24,5 +24,11 @@
     "opened": "已请求打开应用窗口",
     "failed": "打开应用窗口失败",
     "unavailable": "状态不可用"
+  },
+  "menu": {
+    "delete": "删除会话…",
+    "deleting": "正在删除…",
+    "deleteConfirm": "永久删除会话「{title}」？\n\n这会连同磁盘上的对话记录一起删除，无法恢复。只想让它从列表里消失的话，用「归档」。",
+    "deleteFailed": "删除失败"
   }
 }
